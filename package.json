@@ -1,0 +1,24 @@
+{
+  "name": "webservernode",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "node .",
+    "test1": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "basic"
+  ],
+  "author": "shashank srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
